@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+/* Start NavBar*/
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(138, 144, 255, 0.9);
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.logo img{
+    margin-top: 15px;
+}
+.content{
+    width: 50%;
+    float: left;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    cursor: pointer;
+    color: whitesmoke;
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    line-height: 60px;
+}
+.nav li:hover{
+    background-color: rgba(102, 107, 194, 0.9);
+}
+/* End NavBar*/
+
+/* Start Header */
+.header{
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/banner-bg.jpg);
+}
+.header .container{
+    position: relative;
+    top: 150px;
+}
+.header-content,.banner{
+    width: 50%;
+    float: left;
+    color: white;
+}
+.header-content h1{
+    text-transform: capitalize;
+    font-size: 60px;
+}
+.header-content p{
+    text-transform: capitalize;
+}
+.header-content button{
+    color: white;
+    background: transparent;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.header-content button:hover{
+    background-color: rgba(102, 107, 194, 0.9);
+}
+/* End Header */
+
+/* Start Products */
+.products{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 15px 0px;
+}
+.products h1,.products p{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.single-product{
+    width: 22%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 2%;
+    padding: 5px;
+    box-shadow: 2px 10px 30px rgb(212 150 255 / 20%);
+    border-radius: 5%;
+}
+.single-product .details{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 30px 0px;
+    border: none;
+}
+.single-product button{
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+}
+.single-product button:hover{
+    background-color: rgba(138, 144, 255, 0.9);
+}
+/* End Products */
+
+/* Start browse */
+.browse{
+    height: 400px;
+    width: 100%;
+    font-family: cursive;
+    text-align: left;
+    text-transform: capitalize;
+}
+.browse .container .pict, .details{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.browse .pict img{
+    max-width: 92%;
+}
+.browse p{
+    margin-top: 40px;
+    font-size: 90%;
+    color: gray;
+}
+.browse button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5%;
+    border: none;
+    background: transparent;
+}
+.browse button:hover{
+    background-color: rgba(138, 144, 255, 0.9);
+}
+
+
+/* End browse */
+
+/* Start browse2 */
+.browse2{
+    height: 400px;
+    width: 100%;
+    font-family: cursive;
+    text-align: left;
+    text-transform: capitalize;
+}
+.browse2 .container .pict, .details{
+    width: 50%;
+    float:right;
+    margin-top: 100px;
+}
+.browse2 .pict img{
+    max-width: 92%;
+}
+.browse2 p{
+    margin-top: 40px;
+    font-size: 90%;
+    color: gray;
+}
+.browse2 button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5%;
+    border: none;
+    background: transparent;
+}
+.browse2 button:hover{
+    background-color: rgba(138, 144, 255, 0.9);
+}
+
+/* End browse2 */
+
+/* Start picture */
+.picture{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 450px;
+}
+.picture .container .small{
+    padding-top: 80px;
+    width: 20%;
+    float: left;
+}
+
+/* End picture */
+
+/* Start floot */
+.floot{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/footer-bg.jpg);
+}
+.floot ul{
+    list-style: none;
+    color: whitesmoke;
+}
+.floot li{
+    padding: 10px 0px;
+}
+.floot h3{
+    padding: 25px 0px;
+    color: whitesmoke;
+    margin-top: 15px 0px;
+}
+.floot .top, .middle{
+    width: 50%;
+    float: left;
+}
+.floot .middle{
+    color: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+}
+.floot p{
+    margin: 20px;
+}
+/* End floot */
